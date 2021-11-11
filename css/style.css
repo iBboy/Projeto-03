@@ -39,7 +39,7 @@ header{
 	float: left;
 	width: 160px;
 	height: 40px;
-	background-image: url('../imagens/logo-danki.png');
+	background-image: url('../imagens/');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -315,23 +315,6 @@ header nav.desktop-menu li a{
 	font-size: 15px;
 }
 
-.slider-bullets{
-	width: 100%;
-	float: left;
-	padding-left: 30px;
-	margin-top: 12px;
-}
-
-.slider-bullets span{
-	width: 16px;
-	height: 16px;
-	float: left;
-	cursor: pointer;
-	border-radius: 8px;
-	margin-right: 8px;
-	background-color: rgb(200, 200, 200);
-}
-
 /*INICIO DA SESSAO 4*/
 
 .sessao4{
@@ -380,6 +363,7 @@ header nav.desktop-menu li a{
 	padding: 15px;
 	border: 1px solid rgb(200, 200, 200);
 	height: 160px;
+	resize: none;
 }
 
 .form form input[type=submit]{
